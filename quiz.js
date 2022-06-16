@@ -21,7 +21,7 @@ function hash(str) {
     return new Uint32Array([hash])[0].toString(36);
 }
 
-var questionSet = [["What is the capital of Wales?","10ow88p"],["What number are you thinking of between 0 and 100","19g"]];
+var questionSet = [["What is the capital of England?","11qgta0"],["What number are you thinking of between 0 and 100","19g"],["What number are you thinking of between 0 and 100000000000000000000000000000000000000000000000000000000000000000000000000","q8e9cu"]];
 
 function checkAnswer(answerNum){
     var response = "You were... ";
